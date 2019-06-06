@@ -14,7 +14,7 @@ app = Flask(__name__)
 # the minimal Flask application
 @app.route('/')
 def index():
-    return '<h1>Hello, World!</h1>'
+    return '<h1>Hello, wangqizhi22!</h1>'
 
 
 # bind multiple URL for one view function
@@ -35,4 +35,4 @@ def greet(name):
 @app.cli.command()
 def hello():
     """Just say hello."""
-    click.echo('Hello, Human!')
+    click.echo('Hello, commond say hello to qizhiHuman2!')
